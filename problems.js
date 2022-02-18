@@ -264,3 +264,77 @@
 //     return newArr;
 // }
 // console.log(mergeArr(arr1,arr2))
+
+/// Q7. Swap Numbers
+
+/// [1,2,3,5]
+/// in Python, arr[i], arr[j] = arr[j], arr[i]
+/// 2, 3
+// a = 2 b = 3
+// a = 2 - 3 => -1 
+// a = -1
+// b = 3 + -1 => 2
+// a = 2 --1 => 3
+/// a ^ b 
+// function swap(a,b){
+//     console.log("Before: a:" , a, " b:", b)
+//    a = a - b
+//    b = b + a
+//    a = b - a
+//     console.log("After: a:", a, " b:", b)
+// }
+// swap(3, 2)
+
+/// 8. Reverse string in JS
+
+// function revStr(str){
+//     // var newStr = []
+//     // for(let i = str.length-1; i >= 0; i --){
+//     //     newStr.push(str[i])
+//     // }
+//     // return newStr.join('');
+//     return str.split('').reverse().join('')
+// }
+// console.log(revStr('Otgoo'))
+
+/// 9. Reverse words
+/// 'Ben Otgoo'
+
+// function revWord(sen){
+//     return sen.split(' ').reverse().join(' ')
+// }
+// console.log(revWord("Ben Otgo"))
+
+/// 10. Reverse in Place
+
+// function revWord(str){
+
+//     return str.split(' ').reverse().join(' ').split('').reverse().join('')
+// }
+// console.log(revWord("Ben Otgo"))
+
+/// 10. First Non Repeating Char
+/// 'ben mandakh '
+/// first I need to count with Object ds`
+/// then find all elements with one, might push it an array
+/// then grab [0] one, that would be the first non Repeating Char ?
+
+// function firstNonRepeatChar(str){
+//     var dct = {},
+//         arr = [];
+//     for(let i =0; i < str.length; i++){
+//         if(dct[str[i]]){
+//             dct[str[i]]++;
+//         } else{
+//             dct[str[i]] =1
+//         }
+//     }
+//     for (i in dct){
+//         if(dct[i] == 1 && i != ' '){
+//             return i
+//         }
+//     }
+
+// }
+// console.log(firstNonRepeatChar('on Ontgoo'))
+
