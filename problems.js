@@ -189,7 +189,7 @@
 //         if (i != j) {
 //             if(arr[i] == arr[j]){
 //                 arr.splice(i,1);
-            
+
 //                 // delete arr[i];
 //                 delete arr[j];
 //             }
@@ -200,6 +200,23 @@
 
 /// make the arr dict(), then check by key
 
+// function removeDuplicate(arr){
+//     var dictNum = {};
+//     var arr2 = [];
+//     for(let i of arr){
+//         if (!(dictNum[i] in dictNum)){
+//             dictNum[i] = 1
+//         } else {
+//             dictNum[i] = 0
+//         }
+//     }
+//     for (var i in dictNum){
+//         console.log(i)
+//         // if (dictNum[i] > 0){
+//         //     arr2.push(i)
+//         // }
+//     return arr2;
+// }
 // function removeDuplicate(arr){
 //     var dictNum = {};
 //     var arr2 = [];
