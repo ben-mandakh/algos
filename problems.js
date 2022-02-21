@@ -355,3 +355,25 @@
 // }
 // console.log(firstNonRepeatChar('on Ontgoo'))
 
+/// 11. Check if the str is palindrome
+/// madam 
+/// maddam
+/// if str.length % 2 == 0
+/// while something check 0 == lenght-1
+
+// str = 'abc'    // moom.length = 4/2 = 2 i < 2    0, 1 < 
+
+// function checkPalindrome(str){
+//     // var i =0;
+//     // console.log(str.length / 2)
+//     // while (i < str.length / 2){
+//     //     if(str[i] !== str[str.length-1-i])
+//     //     return false;
+//     //     i ++;
+//     // }
+//     // return true;
+
+//     return str == str.split('').reverse().join('')
+// }
+
+// console.log(checkPalindrome(str))
