@@ -377,3 +377,55 @@
 // }
 
 // console.log(checkPalindrome(str))
+
+/// 14. Random Number
+
+// function rand5(){
+//     return 1 + Math.random()*4;
+// }
+
+// function rand7(){
+//     return 1 + rand5()*6
+// }
+
+// console.log(rand5())
+
+/// Missing Number
+
+/// 1...100
+// arr = [1,2,3,7,4,5]
+
+
+
+// function missNumber(arr){
+//     var sum = 0,
+//         n = arr.length +1,
+//         exp_sum = n*(n+1)/2;
+//         for (let i =0; i< arr.length; i++){
+//             sum +=arr[i]
+//         }
+//         return exp_sum - sum;
+// }
+
+// console.log(missNumber(arr))
+
+/// 16. Sum of Two
+/// [1,2,4,5], 7  => True bcs of 2 + 5
+/// I need to check each number, 
+/// Nested loop or 2 for loop, if i, let j run, and then If find any num, return true
+// or look up, means dict or obj, checj by key, this would be faster that O(n2)
+
+// function twoSum(arr, target){
+//     var dct ={};
+
+//     for(let i of arr){
+//         if(dct[target - i]){
+//             return true;
+//         } else{
+//             dct[i] = 1;
+//         }
+//         console.log(dct)
+//     }
+// }
+
+// console.log(twoSum([1,2,4,5], 6))
