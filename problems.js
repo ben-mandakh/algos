@@ -1,5 +1,6 @@
 /// 1. Check if it is Prime number
 
+
 // const { fitBounds } = require("google-map-react");
 
 //// Number : 1. It divided by itself and 1.
@@ -429,3 +430,49 @@
 // }
 
 // console.log(twoSum([1,2,4,5], 6))
+
+/// Largest sum
+/// how would you find the largest sum of any two elements
+// arr = [3,4,2,34,2]
+
+// const largestSum = (arr) =>
+// {
+//     // arr.sort()
+//     // return arr[arr.length-1] + arr[arr.length-2]
+
+//     var biggest = arr[0],
+//         second = arr[1];
+    
+//     if(biggest < second) {
+//         biggest = arr[1];
+//         second = arr[0];
+//     }
+
+//     for(var i = 2; i < arr.length; i++){
+//         if(arr[i] > biggest){
+//             second = biggest;
+//             biggest = arr[i];
+//         } else if (arr[i]> second) {
+//             second = arr[i];
+//         }
+//     }
+//     return biggest +  second;
+// }
+
+// console.log(largestSum(arr))
+
+/// Q17. Counting zeros from  1 to n
+/// Numbers with zero, if it is n= 50, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+/// 11 zeros
+
+// function countZeros(n){
+//     var count = 0;
+//     while ( n > 0){
+//         count += Math.floor(n/10);
+//         n = n/10;
+//     }
+//     return count;
+// }
+
+// console.log(countZeros(214))
+
