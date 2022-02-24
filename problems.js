@@ -476,3 +476,31 @@
 
 // console.log(countZeros(214))
 
+/// Q18. Match subString
+/// str = 'ben mandakh' subStr = 'ma'
+
+// function checkSubStr(str, subStr){
+//     if (str.includes(subStr)){
+//         return true;
+//     }
+//     return false;
+// }
+// var i = 0,
+//     j = 0;
+// for( ; i<str.length; i++){
+//     if(str[i] == subStr[j]){
+//         j++;
+//     } else{
+//         j = 0;
+//     }
+// }
+// if (j == subStr.length){
+//     return true;
+// } else {
+//     return false;
+// }
+// }
+
+// console.log(checkSubStr('ben mandakh', 'ben')
+
+
